@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className={styles.container}>
       <Head>
@@ -37,6 +37,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>
+            <button>Hello</button>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
