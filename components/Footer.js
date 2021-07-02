@@ -7,7 +7,7 @@ export default function Footer() {
         <p>Copyright &copy; DJ Events 2021 </p>
         <p>
             <Link href='/about'>
-                <a>About This Project</a>
+                 About This Project
             </Link>
         </p>
     </footer>;
