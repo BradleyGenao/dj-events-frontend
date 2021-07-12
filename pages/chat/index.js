@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Image from 'next/image';
 import dynamic from 'next/dynamic';
 
 const AblyChatComponent = dynamic(
@@ -9,7 +9,7 @@ const AblyChatComponent = dynamic(
 export default function ChatPage() {
     return (
         <div className="container">
-           
+
 
             <main>
                 <h1 className="title">Next.js Chat Demo</h1>
@@ -23,7 +23,7 @@ export default function ChatPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+                    <Image src="/vercel.svg" alt="Vercel Logo" className="logo" />
                 </a>
 
 
