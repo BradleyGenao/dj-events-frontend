@@ -23,7 +23,7 @@ export default function ChatPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <Image src="/vercel.svg" alt="Vercel Logo" className="logo" />
+                    <Image height={300} width={150} src="/vercel.svg" alt="Vercel Logo" className="logo" />
                 </a>
 
 
